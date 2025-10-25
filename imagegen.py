@@ -19,25 +19,38 @@ def main():
     client = genai.Client()
     
     sample_prompts = SamplePrompts()
-    prompt = sample_prompts.prompts[4]  # 生成したいプロンプトを選択
+    index = 14  # 使用するプロンプトのインデックスを指定
+    aspect_ratio = "4:3"  # 画像のアスペクト比を指定（例: "4:3", "1:1", "16:9"など）
+    prompt = sample_prompts.prompts[index]  # 生成したいプロンプトを選択
     if prompt is not None:
-            print(prompt.text)
+            print(index, prompt.text)
     
     if prompt.image != "none" or prompt.image != "":
-        # 画像が指定されている場合、画像を読み込んでBase64エンコードする
-        image_path = os.path.join(input_dir, prompt.image)
-        image = Image.open(image_path)
-        contents = [prompt.text, image]
+        if(type(prompt.image) is list):
+            contents = []
+            for image_file in prompt.image:
+                # 画像が指定されている場合、画像を読み込んでBase64エンコードする
+                image_path = os.path.join(input_dir, image_file)
+                image = Image.open(image_path)
+                contents.append(image)
+            contents.append(prompt.text)
+        elif(type(prompt.image) is str):
+            image_path = os.path.join(input_dir, prompt.image)
+            image = Image.open(image_path)
+            contents = [image, prompt.text]
+        else:
+            contents = [prompt.text]
     else:
         contents = [prompt.text]
-            
-    prompt = (
-        prompt
-    )
 
     response = client.models.generate_content(
         model="gemini-2.5-flash-image",
         contents=contents,
+        config=types.GenerateContentConfig(
+            image_config=types.ImageConfig(
+                aspect_ratio=aspect_ratio,
+            )
+        )
     )
 
     for part in response.candidates[0].content.parts:

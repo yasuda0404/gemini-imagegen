@@ -12,3 +12,7 @@ wheels/
 # Environment variable files
 .env
 .env.*
+!.env.example
+
+# Output
+_output/tti*.*
