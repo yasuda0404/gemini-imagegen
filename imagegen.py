@@ -1,3 +1,5 @@
+# Image Generator
+# by A.Y. 2025/10/28
 import os
 from google import genai
 from google.genai import types
@@ -7,6 +9,7 @@ from EnvSettings import EnvSettings
 from SamplePrompts import SamplePrompts
 from JSONHelper import JSONHelper
 import argparse
+import time
 
 
 def main(id:str, input_json_file:str = 'prompts.json'):
@@ -19,14 +22,13 @@ def main(id:str, input_json_file:str = 'prompts.json'):
 
     # Geminiクライアントを初期化
     client = genai.Client()
-    aspect_ratio = "4:3"  # 画像のアスペクト比を指定（例: "4:3", "1:1", "16:9"など）
     
-    # 1. 入力プロンプトにSamplePromptsクラスを使用する場合：
+    # 【旧】入力プロンプトにSamplePromptsクラスを使用する場合：
     sample_prompts = SamplePrompts()
     index = 14  # 使用するプロンプトのインデックスを指定
     prompt = sample_prompts.prompts[index]  # 生成したいプロンプトを選択
     
-    # 2. 入力プロンプトにJSONファイルを使用する場合
+    # 【新】入力プロンプトにJSONファイルを使用する場合
     json_helper = JSONHelper()
     #id = 's13'
     prompt_dict = json_helper.LoadFromFile(input_json_file)
@@ -36,9 +38,10 @@ def main(id:str, input_json_file:str = 'prompts.json'):
         return
     
     #print(index, prompt.text)
-    pimage = prompt['image']
-    ptext = prompt['text']
-    print(pimage, ptext)
+    pimage = prompt.get('image')
+    ptext = prompt.get('text')
+    aspect_ratio = prompt.get('aspect', '4:3') # 画像のアスペクト比を指定（例: "4:3", "1:1", "16:9"など）
+    print(pimage, aspect_ratio, ptext)
     
     if pimage == "none":
         contents = [ptext]
@@ -60,7 +63,7 @@ def main(id:str, input_json_file:str = 'prompts.json'):
     else:
         contents = [ptext]
         
-
+    start_time = time.perf_counter()
     response = client.models.generate_content(
         model="gemini-2.5-flash-image",
         contents=contents,
@@ -70,14 +73,18 @@ def main(id:str, input_json_file:str = 'prompts.json'):
             )
         )
     )
-
+    # 計算時間の表示
+    end_time = time.perf_counter()
+    elapsed_time = end_time - start_time
+    print(f"Calculation time: {elapsed_time:.2f} sec.")
+        
     for part in response.candidates[0].content.parts:
         if part.text is not None:
             print(part.text)
         elif part.inline_data is not None:
             image = Image.open(BytesIO(part.inline_data.data))
             image.save(os.path.join(output_dir, output_filename))
-        
+    
         
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
