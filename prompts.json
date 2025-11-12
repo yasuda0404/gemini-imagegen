@@ -80,6 +80,21 @@
         "aspect":"4:3",
         "prompt":"この画像を、飛行機の後ろ上空からの視点に変えてください"
     },
+    "s24":{
+        "image":["occupy_march.jpg"],
+        "aspect":"16:9",
+        "prompt":"A large number of citizens are demonstrating in the streets, calling for the correction of economic inequality and improved living standards. They are holding signs with messages such as 'Address Economic Disparity','Raise Wages',and 'Lower Taxes'. People of diverse genders, races, and ages are participating in the demonstration."
+    },
+    "s20":{
+        "image":["snowman_back.png"],
+        "aspect":"1:1",
+        "prompt":"この雪だるまを、雪だるまの斜め左後ろ高さ約5メートルの位置から、俯瞰した構図で描いてください"
+    },
+    "s21":{
+        "image":["airport_snowman_onboard_hd.png"],
+        "aspect":"16:9",
+        "prompt":"この雪だるまの手に茶色の手袋をつけてください。それ以外の構図は変えないでください"
+    },
     "v01":{
         "image":"none",
         "aspect":"16:9",
@@ -88,19 +103,21 @@
         "prompt":"A close up of two people staring at a cryptic drawing on a wall, torchlight flickering.A man murmurs, 'This must be it. That's the secret code.' The woman looks at him and whispering excitedly, 'What did you find?'"
     },
     "v02":{
-        "image":"airport_snowman.png",
+        "image":"airport_snowman_hd.png",
         "aspect":"16:9",
         "resolution":"720p",
         "duration":"8",
-        "prompt":"雪の降る飛行場。雪だるまが両足で飛び跳ねながら、飛行機のタラップにむかってゆっくり進んでいる。雪だるまは緑色のキャップ帽子を被り、茶色のマフラーをしている。飛行場では荷物を運ぶ車が行き来している。カメラはゆっくりと飛行機にズームイン。雪だるまはタラップの階段を上がっていく"
+        "prompt":"雪の降る飛行場。雪だるまが両足で飛び跳ねながら、飛行機のタラップにむかってゆっくり進んでいる。飛行場では荷物を運ぶ車が行き来している。カメラはゆっくりと飛行機にズームイン。雪だるまはタラップの階段を上がり、タラップの一番上で止まる",
+        "negative_prompt":"音楽、BGM",
+        "last_frame": "airport_snowman_onboard_hd3.png"
     },
     "v03":{
-        "image":"airport_snowman_onboard.png",
+        "image":"airport_snowman_onboard_hd4.png",
         "aspect":"16:9",
         "resolution":"720p",
         "duration":"8",
-        "prompt":"雪の降る飛行場。タラップの上の雪だるまがこちらを向き、手を振る。その後、飛行機のドアから中へ入る。ドアが閉まる。",
-        "ref_images":["airport.png"]
+        "prompt":"雪の降る飛行場。タラップの上の雪だるまがこちらを向き、片手を振り、飛び跳ねる。その後、飛行機のドアから中へ入る。飛行機のドアがスライドして閉まる。",
+        "negative_prompt":"音楽,BGM,鞄"    
     },
     "v04":{
         "image":"none",
@@ -133,5 +150,91 @@
         "last_frame": "airport_climb.png",
         "negative_prompt":"炎",
         "note":"ref_imagesとlast_frameは両方記述できない"
+    },
+    "v08":{
+        "image":"onboard_meal1.png",
+        "aspect":"16:9",
+        "resolution":"720p",
+        "duration":"8",
+        "prompt":"飛行機の中。客室はゆっくり揺れている。雪だるまがクリスマスのスペシャルディナーを美味しそうに食べている。雪だるまの客室乗務員がやってきて、ワイングラスにワインを注ぐ。窓の外では、ジェットエンジンのファンが回転している。",
+        "note":"ref_imagesとlast_frameは両方記述できない"
+    },
+    "v09":{
+        "image":"onboard_meal_cont.png",
+        "aspect":"16:9",
+        "resolution":"720p",
+        "duration":"8",
+        "prompt":"飛行機の中。客室はゆっくり揺れている。雪だるまがクリスマスのスペシャルディナーを美味しそうに食べている。カメラは雪だるまの顔にズームインする。雪だるまは窓の外を覗く。窓ガラス越しに地上の街の風景が見える。花火が上がっている。"    
+    },
+    "v10":{
+        "image":"onboard_meal_window.png",
+        "aspect":"16:9",
+        "resolution":"720p",
+        "duration":"8",
+        "prompt":"飛行機の中。客室はゆっくり揺れている。雪だるまは外の花火を見ている。カメラは窓の外へズームイン。夜の街に花火が上がる風景になる。"    
+    },
+    "v11":{
+        "image":"fireworks.png",
+        "aspect":"16:9",
+        "resolution":"720p",
+        "duration":"8",
+        "prompt":"夜の街にたくさんの花火が上がる。花火の光と街の光がきらめく。"    
+    },
+    "v12":{
+        "image":"none",
+        "video":"ttv_20251104_182522.mp4",
+        "resolution":"720p",
+        "duration":"4",
+        "prompt":"the woman says 'I found the secret of this world' to the man. The man is surprised."    
+    },
+    "v13":{
+        "image":"none",
+        "aspect":"16:9",
+        "resolution":"720p",
+        "duration":"4",
+        "prompt":"雨の中を走るクラシックカーからの POV ショット、カナダの夜、映画のような雰囲気。",
+        "note":"Gemini APIのサンプルを実行"
+    },
+    "v14":{
+        "image":"none",
+        "video":"ttv_20251105_134828.mp4",
+        "_video_op_name":"models/veo-3.1-generate-preview/operations/ba3go82yhsp3",
+        "aspect":"16:9",
+        "resolution":"720p",
+        "duration":"4",
+        "prompt":"突然、前の道路を鹿が横切る。あわてて自動車を停車する",
+        "note":"Gemini APIのサンプルを実行"
+    },
+    "v15":{
+        "image":"occupy_march_gen.png",
+        "aspect":"16:9",
+        "resolution":"720p",
+        "duration":"8",
+        "prompt":"A large number of citizens are demonstrating in the streets, calling for the correction of economic inequality and improved living standards. They are holding signs with messages such as 'Address Economic Disparity','Raise Wages',and 'Lower Taxes'. People of diverse genders, races, and ages are participating in the demonstration.",
+        "note":"大阪大学COデザインセンター映像用"
+    },
+    "v16":{
+        "image":"fireworks3.png",
+        "aspect":"16:9",
+        "resolution":"720p",
+        "duration":"8",
+        "prompt":"夜の街。花火が上がっている。花火の光が集まって'Best wishes for a happy and prosperous new year!'という白色の文字になる。背景の街が暗転し、黒背景に白色のテキストだけが残る"    
+    },
+    "v17":{
+        "image":"airport_takeoff.png",
+        "aspect":"16:9",
+        "resolution":"720p",
+        "duration":"8",
+        "prompt":"雪の降る、夜の飛行場。飛行機が滑走路を加速飛した後、離陸し、急速に高度を上げながら、夜空に消えていく",
+        "last_frame": "airport_climb.png",
+        "negative_prompt":"炎",
+        "note":"ref_imagesと, image, last_frameは両方記述できない"
+    },
+    "t01":{
+        "model":"gemini-2.5-flash",
+        "system_instruction":"You are a cat. Your name is Neko.",
+        "prompt":"こんにちは、はじめまして。あなたの名前はなんですか？",
+        "temperature": 0.0,
+        "note":""
     }
 }

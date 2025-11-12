@@ -39,9 +39,9 @@ def main(id:str, input_json_file:str = 'prompts.json'):
     
     #print(index, prompt.text)
     pimage = prompt.get('image')
-    ptext = prompt.get('text')
+    ptext = prompt.get('prompt')
     aspect_ratio = prompt.get('aspect', '4:3') # 画像のアスペクト比を指定（例: "4:3", "1:1", "16:9"など）
-    print(pimage, aspect_ratio, ptext)
+    print('parameters:', pimage, aspect_ratio, ptext)
     
     if pimage == "none":
         contents = [ptext]
@@ -81,9 +81,11 @@ def main(id:str, input_json_file:str = 'prompts.json'):
     for part in response.candidates[0].content.parts:
         if part.text is not None:
             print(part.text)
-        elif part.inline_data is not None:
+            
+        if part.inline_data is not None:
             image = Image.open(BytesIO(part.inline_data.data))
             image.save(os.path.join(output_dir, output_filename))
+            print(f'Image saved to {output_filename}')
     
         
 if __name__ == "__main__":
