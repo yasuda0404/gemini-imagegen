@@ -16,4 +16,4 @@ wheels/
 
 # Output
 _output/tti*.*
-_input_backup/
+_ignores/
