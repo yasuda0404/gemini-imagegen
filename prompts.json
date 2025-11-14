@@ -85,16 +85,22 @@
         "aspect":"16:9",
         "prompt":"A large number of citizens are demonstrating in the streets, calling for the correction of economic inequality and improved living standards. They are holding signs with messages such as 'Address Economic Disparity','Raise Wages',and 'Lower Taxes'. People of diverse genders, races, and ages are participating in the demonstration."
     },
-    "s20":{
-        "image":["snowman_back.png"],
-        "aspect":"1:1",
-        "prompt":"この雪だるまを、雪だるまの斜め左後ろ高さ約5メートルの位置から、俯瞰した構図で描いてください"
-    },
-    "s21":{
+    "s25":{
         "image":["airport_snowman_onboard_hd.png"],
         "aspect":"16:9",
         "prompt":"この雪だるまの手に茶色の手袋をつけてください。それ以外の構図は変えないでください"
     },
+    "s26":{
+        "image":["onboard_meal_hd.png"],
+        "aspect":"16:9",
+        "prompt":"この雪だるまの片手にフォークを、もう一方の手にナイフを持たせてください"
+    },
+    "s27":{
+        "image":["onboard_meal_hd2.png"],
+        "aspect":"16:9",
+        "prompt":"窓の外の雪だけを消してください。その他の構図はいっさい変更しないでください"
+    },
+
     "v01":{
         "image":"none",
         "aspect":"16:9",
@@ -227,6 +233,76 @@
         "duration":"8",
         "prompt":"雪の降る、夜の飛行場。飛行機が滑走路を加速飛した後、離陸し、急速に高度を上げながら、夜空に消えていく",
         "last_frame": "airport_climb.png",
+        "negative_prompt":"炎",
+        "note":"ref_imagesと, image, last_frameは両方記述できない"
+    },
+    "v18":{
+        "image":"airport_snowman_hd.png",
+        "aspect":"16:9",
+        "resolution":"720p",
+        "duration":"8",
+        "prompt":"雪の降る飛行場。雪だるまが両足で飛び跳ねながら、飛行機のタラップにむかってゆっくり進んでいる。飛行場では荷物を運ぶ車が行き来している。カメラはゆっくりと飛行機にズームイン。雪だるまはタラップの階段を上がる",
+        "negative_prompt":"音楽、BGM",
+        "last_frame": "airport_snowman_onboard_hd6.png"
+    },
+    "v19":{
+        "image":"airport_snowman_onboard_hd6a.png",
+        "aspect":"16:9",
+        "resolution":"720p",
+        "duration":"8",
+        "prompt":"雪の降る飛行場。タラップの上の雪だるまがこちらを向き、片手を上げて振り、飛び跳ねる。その後、開いている飛行機のドアから中へ入る。飛行機のドアが閉まる。機内の照明が点灯する。",
+        "negative_prompt":"音楽,BGM,鞄"    
+    },
+    "v20":{
+        "image":"onboard_meal_hd2.png",
+        "aspect":"16:9",
+        "resolution":"720p",
+        "duration":"8",
+        "prompt":"飛行機の中。客室はゆっくり揺れている。雪だるまは右手にフォーク、左手にナイフを持って、クリスマスのスペシャルディナーを美味しそうに食べている。女性の雪だるまの客室乗務員がやってきて、ワイングラスにワインを注ぐ。窓の外にジェットエンジンのファンが回転しているのが見える。",
+        "negative_prompt":"音楽,BGM,声",
+        "note":"ref_imagesとlast_frameは両方記述できない"
+    },
+    "v21":{
+        "image":"onboard_meal_hd3.png",
+        "aspect":"16:9",
+        "resolution":"720p",
+        "duration":"8",
+        "prompt":"飛行機の中。客室はゆっくり揺れている。雪だるがクリスマスのスペシャルディナーを美味しそうに食べている。女性の雪だるまの客室乗務員がやってきて、ワイングラスにワインを注ぐ。窓の外にジェットエンジンのファンが回転しているのが見える。",
+        "negative_prompt":"音楽,BGM,声",
+        "note":"ref_imagesとlast_frameは両方記述できない"
+    },
+    "v22":{
+        "image":"onboard_meal_cont_hd.png",
+        "aspect":"16:9",
+        "resolution":"720p",
+        "duration":"8",
+        "prompt":"飛行機の中。客室はゆっくり揺れている。雪だるまはワイングラスを手に取る。カメラは雪だるまの顔にズームインする。雪だるまは窓の外を覗く。窓ガラス越しに地上の街の風景が見える。花火が上がっている。",
+        "negative_prompt":"音楽,BGM,声"
+    },
+    "v23":{
+        "image":"onboard_meal_window_hd.png",
+        "aspect":"16:9",
+        "resolution":"720p",
+        "duration":"8",
+        "prompt":"飛行機の中。雪だるまは目を開けて窓の外の花火を見ている。カメラは窓を通って窓の外へズームイン。夜の東京の街に花火が上がる風景になる。",
+        "negative_prompt":"音楽,BGM,声,手,木の枝",
+        "last_frame": "fireworks_tokyo.png"
+    },
+    "v24":{
+        "image":"fireworks_tokyo2.png",
+        "aspect":"16:9",
+        "resolution":"720p",
+        "duration":"8",
+        "prompt":"夜の街にたくさんの花火が上がる。花火の光と街の光がきらめく。",
+        "negative_prompt":"音楽,BGM,声"
+    },
+    "v25":{
+        "image":"airport_takeoff.png",
+        "aspect":"16:9",
+        "resolution":"720p",
+        "duration":"8",
+        "prompt":"雪の降る、夜の飛行場。飛行機の主翼の両端に白色のポジションライトが点灯している。飛行機が滑走路を加速飛した後、離陸し、急速に高度を上げながら、夜空に消えていく",
+        "last_frame": "airplane_climb.png",
         "negative_prompt":"炎",
         "note":"ref_imagesと, image, last_frameは両方記述できない"
     },
