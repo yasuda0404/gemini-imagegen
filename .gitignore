@@ -14,6 +14,7 @@ wheels/
 .env.*
 !.env.example
 
-# Output
-_output/tti*.*
+# materials
+_input_mask/
+_output/*.*
 _ignores/

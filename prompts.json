@@ -1,316 +1,371 @@
 {
-    "s01":{
-        "image":"none",
-        "aspect":"1:1",
-        "prompt":"Create a picture of a nano banana dish in a fancy restaurant with a Gemini theme"
+    "s01": {
+        "image": "none",
+        "aspect": "1:1",
+        "prompt": "Create a picture of a nano banana dish in a fancy restaurant with a Gemini theme"
     },
-    "s02":{
-        "image":"none",
-        "prompt":"A photorealistic close-up portrait of an elderly Japanese ceramicist with deep, sun-etched wrinkles and a warm, knowing smile. He is carefully inspecting a freshly glazed tea bowl. The setting is his rustic, sun-drenched workshop with pottery wheels and shelves of clay pots in the background. The scene is illuminated by soft, golden hour light streaming through a window, highlighting the fine texture of the clay and the fabric of his apron. Captured with an 85mm portrait lens, resulting in a soft, blurred background (bokeh). The overall mood is serene and masterful."
+    "s02": {
+        "image": "none",
+        "prompt": "A photorealistic close-up portrait of an elderly Japanese ceramicist with deep, sun-etched wrinkles and a warm, knowing smile. He is carefully inspecting a freshly glazed tea bowl. The setting is his rustic, sun-drenched workshop with pottery wheels and shelves of clay pots in the background. The scene is illuminated by soft, golden hour light streaming through a window, highlighting the fine texture of the clay and the fabric of his apron. Captured with an 85mm portrait lens, resulting in a soft, blurred background (bokeh). The overall mood is serene and masterful."
     },
-    "s03":{
-        "image":"none",
-        "prompt":"A kawaii-style sticker of a happy red panda wearing a tiny bamboo hat. It's munching on a green bamboo leaf. The design features bold, clean outlines, simple cel-shading, and a vibrant color palette. The background must be white."
+    "s03": {
+        "image": "none",
+        "prompt": "A kawaii-style sticker of a happy red panda wearing a tiny bamboo hat. It's munching on a green bamboo leaf. The design features bold, clean outlines, simple cel-shading, and a vibrant color palette. The background must be white."
     },
-    "s04":{
-        "image":"kitty.jpeg",
-        "prompt":"Create a picture of my cat eating a nano-banana in a fancy restaurant with a Gemini theme"
+    "s04": {
+        "image": "kitty.jpeg",
+        "prompt": "Create a picture of my cat eating a nano-banana in a fancy restaurant with a Gemini theme"
     },
-    "s05":{
-        "image":"kitty.jpeg",
-        "prompt":"宇宙服を着た子猫が、宇宙船のコックピットで、地球を背景に窓の外を見つめている様子を描いてください。子猫は好奇心旺盛な表情で、宇宙服のヘルメットが少し大きめに見えます。コックピット内には未来的な計器やスクリーンが配置されており、窓の外には美しい青い地球と星空が広がっています。全体的に明るく希望に満ちた雰囲気で、子猫の冒険心を感じさせるイラストにしてください。"
+    "s05": {
+        "image": "kitty.jpeg",
+        "prompt": "宇宙服を着た子猫が、宇宙船のコックピットで、地球を背景に窓の外を見つめている様子を描いてください。子猫は好奇心旺盛な表情で、宇宙服のヘルメットが少し大きめに見えます。コックピット内には未来的な計器やスクリーンが配置されており、窓の外には美しい青い地球と星空が広がっています。全体的に明るく希望に満ちた雰囲気で、子猫の冒険心を感じさせるイラストにしてください。"
     },
-    "s06":{
-        "image":"none",
-        "prompt":"Create a modern, minimalist logo for a coffee shop called 'The Daily Grind'. The text should be in a clean, bold, sans-serif font. The design should feature a simple, stylized icon of a a coffee bean seamlessly integrated with the text. The color scheme is black and white"
+    "s06": {
+        "image": "none",
+        "prompt": "Create a modern, minimalist logo for a coffee shop called 'The Daily Grind'. The text should be in a clean, bold, sans-serif font. The design should feature a simple, stylized icon of a a coffee bean seamlessly integrated with the text. The color scheme is black and white"
     },
-    "s07":{
-        "image":"none",
-        "prompt":"A high-resolution, studio-lit product photograph of a minimalist ceramic coffee mug in matte black, presented on a polished concrete surface. The lighting is a three-point softbox setup designed to create soft, diffused highlights and eliminate harsh shadows. The camera angle is a slightly elevated 45-degree shot to showcase its clean lines. Ultra-realistic, with sharp focus on the steam rising from the coffee. Square image."
+    "s07": {
+        "image": "none",
+        "prompt": "A high-resolution, studio-lit product photograph of a minimalist ceramic coffee mug in matte black, presented on a polished concrete surface. The lighting is a three-point softbox setup designed to create soft, diffused highlights and eliminate harsh shadows. The camera angle is a slightly elevated 45-degree shot to showcase its clean lines. Ultra-realistic, with sharp focus on the steam rising from the coffee. Square image."
     },
-    "s08":{
-        "image":"none",
-        "prompt":"A minimalist composition featuring a single, delicate red maple leaf positioned in the bottom-right of the frame. The background is a vast, empty off-white canvas, creating significant negative space for text. Soft, diffused lighting from the top left. Square image."
+    "s08": {
+        "image": "none",
+        "prompt": "A minimalist composition featuring a single, delicate red maple leaf positioned in the bottom-right of the frame. The background is a vast, empty off-white canvas, creating significant negative space for text. Soft, diffused lighting from the top left. Square image."
     },
-    "s09":{
-        "image":"none",
-        "prompt":"A single comic book panel in a gritty, noir art style with high-contrast black and white inks. In the foreground, a detective in a trench coat stands under a flickering streetlamp, rain soaking his shoulders. In the background, the neon sign of a desolate bar reflects in a puddle. A caption box at the top reads \"The city was a tough place to keep secrets.\" The lighting is harsh, creating a dramatic, somber mood. Landscape."
+    "s09": {
+        "image": "none",
+        "prompt": "A single comic book panel in a gritty, noir art style with high-contrast black and white inks. In the foreground, a detective in a trench coat stands under a flickering streetlamp, rain soaking his shoulders. In the background, the neon sign of a desolate bar reflects in a puddle. A caption box at the top reads \"The city was a tough place to keep secrets.\" The lighting is harsh, creating a dramatic, somber mood. Landscape."
     },
-    "s10":{
-        "image":"cat.png",
-        "prompt":"Using the provided image of my cat, please add a small, knitted wizard hat on its head. Make it look like it's sitting comfortably and not falling off."
+    "s10": {
+        "image": "cat.png",
+        "prompt": "Using the provided image of my cat, please add a small, knitted wizard hat on its head. Make it look like it's sitting comfortably and not falling off."
     },
-    "s11":{
-        "image":"living_room.png",
-        "prompt":"Using the provided image of a living room, change only the blue sofa to be a vintage, brown leather chesterfield sofa. Keep the rest of the room, including the pillows on the sofa and the lighting, unchanged."
+    "s11": {
+        "image": "living_room.png",
+        "prompt": "Using the provided image of a living room, change only the blue sofa to be a vintage, brown leather chesterfield sofa. Keep the rest of the room, including the pillows on the sofa and the lighting, unchanged."
     },
-    "s12":{
-        "image":"city.png",
-        "prompt":"Transform the provided photograph of a modern city street at night into the artistic style of Vincent van Gogh's 'Starry Night'. Preserve the original composition of buildings and cars, but render all elements with swirling, impasto brushstrokes and a dramatic palette of deep blues and bright yellows."
+    "s12": {
+        "image": "city.png",
+        "prompt": "Transform the provided photograph of a modern city street at night into the artistic style of Vincent van Gogh's 'Starry Night'. Preserve the original composition of buildings and cars, but render all elements with swirling, impasto brushstrokes and a dramatic palette of deep blues and bright yellows."
     },
-    "s13":{
-        "image":["dress.png","model.png"],
-        "prompt":"Create a professional e-commerce fashion photo. Take the blue floral dress from the first image and let the woman from the second image wear it. Generate a realistic, full-body shot of the woman wearing the dress, with the lighting and shadows adjusted to match the outdoor environment."
+    "s13": {
+        "image": [
+            "dress.png",
+            "model.png"
+        ],
+        "prompt": "Create a professional e-commerce fashion photo. Take the blue floral dress from the first image and let the woman from the second image wear it. Generate a realistic, full-body shot of the woman wearing the dress, with the lighting and shadows adjusted to match the outdoor environment."
     },
-    "s14":{
-        "image":["dress.png","tomoko.jpg"],
-        "prompt":"Create a professional e-commerce fashion photo. Take the blue floral dress from the first image and let the woman from the second image wear it. Generate a realistic, full-body shot of the woman wearing the dress, with the lighting and shadows adjusted to match the outdoor environment."
+    "s14": {
+        "image": [
+            "dress.png",
+            "tomoko.jpg"
+        ],
+        "prompt": "Create a professional e-commerce fashion photo. Take the blue floral dress from the first image and let the woman from the second image wear it. Generate a realistic, full-body shot of the woman wearing the dress, with the lighting and shadows adjusted to match the outdoor environment."
     },
-    "s15":{
-        "image":["woman.jpg","logo.png"],
-        "prompt":"Take the first image of the woman with brown hair, blue eyes, and a neutral expression. Add the logo from the second image onto her black t-shirt. Ensure the woman's face and features remain completely unchanged. The logo should look like it's naturally printed on the fabric, following the folds of the shirt."
+    "s15": {
+        "image": [
+            "woman.jpg",
+            "logo.png"
+        ],
+        "prompt": "Take the first image of the woman with brown hair, blue eyes, and a neutral expression. Add the logo from the second image onto her black t-shirt. Ensure the woman's face and features remain completely unchanged. The logo should look like it's naturally printed on the fabric, following the folds of the shirt."
     },
-    "s20":{
-        "image":["snowman_back.png"],
-        "aspect":"1:1",
-        "prompt":"この雪だるまを、雪だるまの斜め左後ろ高さ約5メートルの位置から、俯瞰した構図で描いてください"
+    "s20": {
+        "image": [
+            "snowman_back.png"
+        ],
+        "aspect": "1:1",
+        "prompt": "この雪だるまを、雪だるまの斜め左後ろ高さ約5メートルの位置から、俯瞰した構図で描いてください"
     },
-    "s21":{
-        "image":["airport.png","snowman_left.png"],
-        "aspect":"4:3",
-        "prompt":"ひとつめの画像に、２つ目の画像のゆきだるまを加えてください。雪だるまは、飛行機に搭乗するために、飛行場の地面をタラップにむかって歩いています。"
+    "s21": {
+        "image": [
+            "airport.png",
+            "snowman_left.png"
+        ],
+        "aspect": "4:3",
+        "prompt": "ひとつめの画像に、２つ目の画像のゆきだるまを加えてください。雪だるまは、飛行機に搭乗するために、飛行場の地面をタラップにむかって歩いています。"
     },
-    "s22":{
-        "image":["airport.png"],
-        "aspect":"4:3",
-        "prompt":"この画像について、飛行機のタラップを削除し、遠方の飛行機や建物も削除してください。地面を滑走路に変えてください。飛行機は滑走路の上を加速しています"
+    "s22": {
+        "image": [
+            "airport.png"
+        ],
+        "aspect": "4:3",
+        "prompt": "この画像について、飛行機のタラップを削除し、遠方の飛行機や建物も削除してください。地面を滑走路に変えてください。飛行機は滑走路の上を加速しています"
     },
-    "s23":{
-        "image":["airport_takeoff_front.png"],
-        "aspect":"4:3",
-        "prompt":"この画像を、飛行機の後ろ上空からの視点に変えてください"
+    "s23": {
+        "image": [
+            "airport_takeoff_front.png"
+        ],
+        "aspect": "4:3",
+        "prompt": "この画像を、飛行機の後ろ上空からの視点に変えてください"
     },
-    "s24":{
-        "image":["occupy_march.jpg"],
-        "aspect":"16:9",
-        "prompt":"A large number of citizens are demonstrating in the streets, calling for the correction of economic inequality and improved living standards. They are holding signs with messages such as 'Address Economic Disparity','Raise Wages',and 'Lower Taxes'. People of diverse genders, races, and ages are participating in the demonstration."
+    "s24": {
+        "image": [
+            "occupy_march.jpg"
+        ],
+        "aspect": "16:9",
+        "prompt": "A large number of citizens are demonstrating in the streets, calling for the correction of economic inequality and improved living standards. They are holding signs with messages such as 'Address Economic Disparity','Raise Wages',and 'Lower Taxes'. People of diverse genders, races, and ages are participating in the demonstration."
     },
-    "s25":{
-        "image":["airport_snowman_onboard_hd.png"],
-        "aspect":"16:9",
-        "prompt":"この雪だるまの手に茶色の手袋をつけてください。それ以外の構図は変えないでください"
+    "s25": {
+        "image": [
+            "airport_snowman_onboard_hd.png"
+        ],
+        "aspect": "16:9",
+        "prompt": "この雪だるまの手に茶色の手袋をつけてください。それ以外の構図は変えないでください"
     },
-    "s26":{
-        "image":["onboard_meal_hd.png"],
-        "aspect":"16:9",
-        "prompt":"この雪だるまの片手にフォークを、もう一方の手にナイフを持たせてください"
+    "s26": {
+        "image": [
+            "onboard_meal_hd.png"
+        ],
+        "aspect": "16:9",
+        "prompt": "この雪だるまの片手にフォークを、もう一方の手にナイフを持たせてください"
     },
-    "s27":{
-        "image":["onboard_meal_hd2.png"],
-        "aspect":"16:9",
-        "prompt":"窓の外の雪だけを消してください。その他の構図はいっさい変更しないでください"
+    "s27": {
+        "image": [
+            "onboard_meal_hd2.png"
+        ],
+        "aspect": "16:9",
+        "prompt": "窓の外の雪だけを消してください。その他の構図はいっさい変更しないでください"
     },
-
-    "v01":{
-        "image":"none",
-        "aspect":"16:9",
-        "resolution":"720p",
-        "duration":"4",
-        "prompt":"A close up of two people staring at a cryptic drawing on a wall, torchlight flickering.A man murmurs, 'This must be it. That's the secret code.' The woman looks at him and whispering excitedly, 'What did you find?'"
+    "v01": {
+        "image": "none",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "4",
+        "prompt": "A close up of two people staring at a cryptic drawing on a wall, torchlight flickering.A man murmurs, 'This must be it. That's the secret code.' The woman looks at him and whispering excitedly, 'What did you find?'"
     },
-    "v02":{
-        "image":"airport_snowman_hd.png",
-        "aspect":"16:9",
-        "resolution":"720p",
-        "duration":"8",
-        "prompt":"雪の降る飛行場。雪だるまが両足で飛び跳ねながら、飛行機のタラップにむかってゆっくり進んでいる。飛行場では荷物を運ぶ車が行き来している。カメラはゆっくりと飛行機にズームイン。雪だるまはタラップの階段を上がり、タラップの一番上で止まる",
-        "negative_prompt":"音楽、BGM",
+    "v02": {
+        "image": "airport_snowman_hd.png",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "8",
+        "prompt": "雪の降る飛行場。雪だるまが両足で飛び跳ねながら、飛行機のタラップにむかってゆっくり進んでいる。飛行場では荷物を運ぶ車が行き来している。カメラはゆっくりと飛行機にズームイン。雪だるまはタラップの階段を上がり、タラップの一番上で止まる",
+        "negative_prompt": "音楽、BGM",
         "last_frame": "airport_snowman_onboard_hd3.png"
     },
-    "v03":{
-        "image":"airport_snowman_onboard_hd4.png",
-        "aspect":"16:9",
-        "resolution":"720p",
-        "duration":"8",
-        "prompt":"雪の降る飛行場。タラップの上の雪だるまがこちらを向き、片手を振り、飛び跳ねる。その後、飛行機のドアから中へ入る。飛行機のドアがスライドして閉まる。",
-        "negative_prompt":"音楽,BGM,鞄"    
+    "v03": {
+        "image": "airport_snowman_onboard_hd4.png",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "8",
+        "prompt": "雪の降る飛行場。タラップの上の雪だるまがこちらを向き、片手を振り、飛び跳ねる。その後、飛行機のドアから中へ入る。飛行機のドアがスライドして閉まる。",
+        "negative_prompt": "音楽,BGM,鞄"
     },
-    "v04":{
-        "image":"none",
-        "aspect":"16:9",
-        "resolution":"720p",
-        "duration":"8",
-        "prompt":"雪の降る、夜の飛行場の遠景。飛行機が、滑走路へ進み、離陸のための滑走を始める。カメラは飛行機の前方から、飛行機の後方へ回り込む。",
-        "ref_images":["airport.png"]
+    "v04": {
+        "image": "none",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "8",
+        "prompt": "雪の降る、夜の飛行場の遠景。飛行機が、滑走路へ進み、離陸のための滑走を始める。カメラは飛行機の前方から、飛行機の後方へ回り込む。",
+        "ref_images": [
+            "airport.png"
+        ]
     },
-    "v05":{
-        "image":"airport_takeoff.png",
-        "aspect":"16:9",
-        "resolution":"720p",
-        "duration":"8",
-        "prompt":"雪の降る、夜の飛行場の遠景。飛行機が滑走路を加速し、離陸する。カメラは飛行機の後方から追う。離陸した飛行機は夜空に消えていく"
+    "v05": {
+        "image": "airport_takeoff.png",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "8",
+        "prompt": "雪の降る、夜の飛行場の遠景。飛行機が滑走路を加速し、離陸する。カメラは飛行機の後方から追う。離陸した飛行機は夜空に消えていく"
     },
-    "v06":{
-        "image":"airport_before_takeoff.png",
-        "aspect":"16:9",
-        "resolution":"720p",
-        "duration":"8",
-        "prompt":"雪の降る、夜の飛行場の遠景。飛行機が滑走路を加速する。カメラは飛行機の後方へ回り込む。飛行機は滑走路を約300メートル加速した後、離陸し、夜空に遠く消えていく"
+    "v06": {
+        "image": "airport_before_takeoff.png",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "8",
+        "prompt": "雪の降る、夜の飛行場の遠景。飛行機が滑走路を加速する。カメラは飛行機の後方へ回り込む。飛行機は滑走路を約300メートル加速した後、離陸し、夜空に遠く消えていく"
     },
-    "v07":{
-        "image":"airport_before_takeoff.png",
-        "aspect":"16:9",
-        "resolution":"720p",
-        "duration":"8",
-        "prompt":"雪の降る、夜の飛行場の遠景。カメラ視点は飛行機の後方。飛行機が滑走路をしばらく加速飛した後、離陸し、急速に高度を上げながら、夜空に消えていく",
+    "v07": {
+        "image": "airport_before_takeoff.png",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "8",
+        "prompt": "雪の降る、夜の飛行場の遠景。カメラ視点は飛行機の後方。飛行機が滑走路をしばらく加速飛した後、離陸し、急速に高度を上げながら、夜空に消えていく",
         "last_frame": "airport_climb.png",
-        "negative_prompt":"炎",
-        "note":"ref_imagesとlast_frameは両方記述できない"
+        "negative_prompt": "炎",
+        "note": "ref_imagesとlast_frameは両方記述できない"
     },
-    "v08":{
-        "image":"onboard_meal1.png",
-        "aspect":"16:9",
-        "resolution":"720p",
-        "duration":"8",
-        "prompt":"飛行機の中。客室はゆっくり揺れている。雪だるまがクリスマスのスペシャルディナーを美味しそうに食べている。雪だるまの客室乗務員がやってきて、ワイングラスにワインを注ぐ。窓の外では、ジェットエンジンのファンが回転している。",
-        "note":"ref_imagesとlast_frameは両方記述できない"
+    "v08": {
+        "image": "onboard_meal1.png",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "8",
+        "prompt": "飛行機の中。客室はゆっくり揺れている。雪だるまがクリスマスのスペシャルディナーを美味しそうに食べている。雪だるまの客室乗務員がやってきて、ワイングラスにワインを注ぐ。窓の外では、ジェットエンジンのファンが回転している。",
+        "note": "ref_imagesとlast_frameは両方記述できない"
     },
-    "v09":{
-        "image":"onboard_meal_cont.png",
-        "aspect":"16:9",
-        "resolution":"720p",
-        "duration":"8",
-        "prompt":"飛行機の中。客室はゆっくり揺れている。雪だるまがクリスマスのスペシャルディナーを美味しそうに食べている。カメラは雪だるまの顔にズームインする。雪だるまは窓の外を覗く。窓ガラス越しに地上の街の風景が見える。花火が上がっている。"    
+    "v09": {
+        "image": "onboard_meal_cont.png",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "8",
+        "prompt": "飛行機の中。客室はゆっくり揺れている。雪だるまがクリスマスのスペシャルディナーを美味しそうに食べている。カメラは雪だるまの顔にズームインする。雪だるまは窓の外を覗く。窓ガラス越しに地上の街の風景が見える。花火が上がっている。"
     },
-    "v10":{
-        "image":"onboard_meal_window.png",
-        "aspect":"16:9",
-        "resolution":"720p",
-        "duration":"8",
-        "prompt":"飛行機の中。客室はゆっくり揺れている。雪だるまは外の花火を見ている。カメラは窓の外へズームイン。夜の街に花火が上がる風景になる。"    
+    "v10": {
+        "image": "onboard_meal_window.png",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "8",
+        "prompt": "飛行機の中。客室はゆっくり揺れている。雪だるまは外の花火を見ている。カメラは窓の外へズームイン。夜の街に花火が上がる風景になる。"
     },
-    "v11":{
-        "image":"fireworks.png",
-        "aspect":"16:9",
-        "resolution":"720p",
-        "duration":"8",
-        "prompt":"夜の街にたくさんの花火が上がる。花火の光と街の光がきらめく。"    
+    "v11": {
+        "image": "fireworks.png",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "8",
+        "prompt": "夜の街にたくさんの花火が上がる。花火の光と街の光がきらめく。"
     },
-    "v12":{
-        "image":"none",
-        "video":"ttv_20251104_182522.mp4",
-        "resolution":"720p",
-        "duration":"4",
-        "prompt":"the woman says 'I found the secret of this world' to the man. The man is surprised."    
+    "v12": {
+        "image": "none",
+        "video": "ttv_20251104_182522.mp4",
+        "resolution": "720p",
+        "duration": "4",
+        "prompt": "the woman says 'I found the secret of this world' to the man. The man is surprised."
     },
-    "v13":{
-        "image":"none",
-        "aspect":"16:9",
-        "resolution":"720p",
-        "duration":"4",
-        "prompt":"雨の中を走るクラシックカーからの POV ショット、カナダの夜、映画のような雰囲気。",
-        "note":"Gemini APIのサンプルを実行"
+    "v13": {
+        "image": "none",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "4",
+        "prompt": "雨の中を走るクラシックカーからの POV ショット、カナダの夜、映画のような雰囲気。",
+        "note": "Gemini APIのサンプルを実行"
     },
-    "v14":{
-        "image":"none",
-        "video":"ttv_20251105_134828.mp4",
-        "_video_op_name":"models/veo-3.1-generate-preview/operations/ba3go82yhsp3",
-        "aspect":"16:9",
-        "resolution":"720p",
-        "duration":"4",
-        "prompt":"突然、前の道路を鹿が横切る。あわてて自動車を停車する",
-        "note":"Gemini APIのサンプルを実行"
+    "v14": {
+        "image": "none",
+        "video": "ttv_20251105_134828.mp4",
+        "_video_op_name": "models/veo-3.1-generate-preview/operations/ba3go82yhsp3",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "4",
+        "prompt": "突然、前の道路を鹿が横切る。あわてて自動車を停車する",
+        "note": "Gemini APIのサンプルを実行"
     },
-    "v15":{
-        "image":"occupy_march_gen.png",
-        "aspect":"16:9",
-        "resolution":"720p",
-        "duration":"8",
-        "prompt":"A large number of citizens are demonstrating in the streets, calling for the correction of economic inequality and improved living standards. They are holding signs with messages such as 'Address Economic Disparity','Raise Wages',and 'Lower Taxes'. People of diverse genders, races, and ages are participating in the demonstration.",
-        "note":"大阪大学COデザインセンター映像用"
+    "v15": {
+        "image": "occupy_march_gen.png",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "8",
+        "prompt": "A large number of citizens are demonstrating in the streets, calling for the correction of economic inequality and improved living standards. They are holding signs with messages such as 'Address Economic Disparity','Raise Wages',and 'Lower Taxes'. People of diverse genders, races, and ages are participating in the demonstration.",
+        "note": "大阪大学COデザインセンター映像用"
     },
-    "v16":{
-        "image":"fireworks3.png",
-        "aspect":"16:9",
-        "resolution":"720p",
-        "duration":"8",
-        "prompt":"夜の街。花火が上がっている。花火の光が集まって'Best wishes for a happy and prosperous new year!'という白色の文字になる。背景の街が暗転し、黒背景に白色のテキストだけが残る"    
+    "v16": {
+        "image": "fireworks3.png",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "8",
+        "prompt": "夜の街。花火が上がっている。花火の光が集まって'Best wishes for a happy and prosperous new year!'という白色の文字になる。背景の街が暗転し、黒背景に白色のテキストだけが残る"
     },
-    "v17":{
-        "image":"airport_takeoff.png",
-        "aspect":"16:9",
-        "resolution":"720p",
-        "duration":"8",
-        "prompt":"雪の降る、夜の飛行場。飛行機が滑走路を加速飛した後、離陸し、急速に高度を上げながら、夜空に消えていく",
-        "last_frame": "airport_climb.png",
-        "negative_prompt":"炎",
-        "note":"ref_imagesと, image, last_frameは両方記述できない"
+    "v17": {
+        "image": "airport_takeoff.png",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "8",
+        "prompt": "雪の降る、夜の飛行場。飛行機が滑走路を加速飛した後、離陸し、急速に高度を上げながら、夜空に消えていく",
+        "last_frame": "airplane_climb.png",
+        "negative_prompt": "炎",
+        "note": "ref_imagesと, image, last_frameは両方記述できない"
     },
-    "v18":{
-        "image":"airport_snowman_hd.png",
-        "aspect":"16:9",
-        "resolution":"720p",
-        "duration":"8",
-        "prompt":"雪の降る飛行場。雪だるまが両足で飛び跳ねながら、飛行機のタラップにむかってゆっくり進んでいる。飛行場では荷物を運ぶ車が行き来している。カメラはゆっくりと飛行機にズームイン。雪だるまはタラップの階段を上がる",
-        "negative_prompt":"音楽、BGM",
+    "v18": {
+        "image": "airport_snowman_hd.png",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "8",
+        "prompt": "雪の降る飛行場。雪だるまが両足で飛び跳ねながら、飛行機のタラップにむかってゆっくり進んでいる。飛行場では荷物を運ぶ車が行き来している。カメラはゆっくりと飛行機にズームイン。雪だるまはタラップの階段を上がる",
+        "negative_prompt": "音楽、BGM",
         "last_frame": "airport_snowman_onboard_hd6.png"
     },
-    "v19":{
-        "image":"airport_snowman_onboard_hd6a.png",
-        "aspect":"16:9",
-        "resolution":"720p",
-        "duration":"8",
-        "prompt":"雪の降る飛行場。タラップの上の雪だるまがこちらを向き、片手を上げて振り、飛び跳ねる。その後、開いている飛行機のドアから中へ入る。飛行機のドアが閉まる。機内の照明が点灯する。",
-        "negative_prompt":"音楽,BGM,鞄"    
+    "v19": {
+        "image": "airport_snowman_onboard_hd6a.png",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "8",
+        "prompt": "雪の降る飛行場。タラップの上の雪だるまがこちらを向き、片手を上げて振り、飛び跳ねる。その後、開いている飛行機のドアから中へ入る。飛行機のドアが閉まる。機内の照明が点灯する。",
+        "negative_prompt": "音楽,BGM,鞄"
     },
-    "v20":{
-        "image":"onboard_meal_hd2.png",
-        "aspect":"16:9",
-        "resolution":"720p",
-        "duration":"8",
-        "prompt":"飛行機の中。客室はゆっくり揺れている。雪だるまは右手にフォーク、左手にナイフを持って、クリスマスのスペシャルディナーを美味しそうに食べている。女性の雪だるまの客室乗務員がやってきて、ワイングラスにワインを注ぐ。窓の外にジェットエンジンのファンが回転しているのが見える。",
-        "negative_prompt":"音楽,BGM,声",
-        "note":"ref_imagesとlast_frameは両方記述できない"
+    "v20": {
+        "image": "onboard_meal_hd2.png",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "8",
+        "prompt": "飛行機の中。客室はゆっくり揺れている。雪だるまは右手にフォーク、左手にナイフを持って、クリスマスのスペシャルディナーを美味しそうに食べている。女性の雪だるまの客室乗務員がやってきて、ワイングラスにワインを注ぐ。窓の外にジェットエンジンのファンが回転しているのが見える。",
+        "negative_prompt": "音楽,BGM,声",
+        "note": "ref_imagesとlast_frameは両方記述できない"
     },
-    "v21":{
-        "image":"onboard_meal_hd3.png",
-        "aspect":"16:9",
-        "resolution":"720p",
-        "duration":"8",
-        "prompt":"飛行機の中。客室はゆっくり揺れている。雪だるがクリスマスのスペシャルディナーを美味しそうに食べている。女性の雪だるまの客室乗務員がやってきて、ワイングラスにワインを注ぐ。窓の外にジェットエンジンのファンが回転しているのが見える。",
-        "negative_prompt":"音楽,BGM,声",
-        "note":"ref_imagesとlast_frameは両方記述できない"
+    "v21": {
+        "image": "onboard_meal_hd2a.png",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "8",
+        "prompt": "飛行機の中。客室はゆっくり揺れている。雪だるがクリスマスのスペシャルディナーを美味しそうに食べている。女性の雪だるまの客室乗務員がやってきて、ワイングラスにワインを注ぐ。窓の外にジェットエンジンのファンが回転しているのが見える。",
+        "negative_prompt": "音楽,BGM,声",
+        "note": "ref_imagesとlast_frameは両方記述できない"
     },
-    "v22":{
-        "image":"onboard_meal_cont_hd.png",
-        "aspect":"16:9",
-        "resolution":"720p",
-        "duration":"8",
-        "prompt":"飛行機の中。客室はゆっくり揺れている。雪だるまはワイングラスを手に取る。カメラは雪だるまの顔にズームインする。雪だるまは窓の外を覗く。窓ガラス越しに地上の街の風景が見える。花火が上がっている。",
-        "negative_prompt":"音楽,BGM,声"
+    "v22": {
+        "image": "onboard_meal_cont_hd.png",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "8",
+        "prompt": "飛行機の中。客室はゆっくり揺れている。雪だるまはワイングラスを手に取る。カメラは雪だるまの顔にズームインする。雪だるまは窓の外を覗く。窓ガラス越しに地上の街の風景が見える。花火が上がっている。",
+        "negative_prompt": "音楽,BGM,声"
     },
-    "v23":{
-        "image":"onboard_meal_window_hd.png",
-        "aspect":"16:9",
-        "resolution":"720p",
-        "duration":"8",
-        "prompt":"飛行機の中。雪だるまは目を開けて窓の外の花火を見ている。カメラは窓を通って窓の外へズームイン。夜の東京の街に花火が上がる風景になる。",
-        "negative_prompt":"音楽,BGM,声,手,木の枝",
+    "v23": {
+        "image": "onboard_meal_window_hd.png",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "8",
+        "prompt": "飛行機の中。雪だるまは目を開けて窓の外の花火を見ている。カメラは窓を通って窓の外へズームイン。夜の東京の街に花火が上がる風景になる。",
+        "negative_prompt": "音楽,BGM,声,手,木の枝",
         "last_frame": "fireworks_tokyo.png"
     },
-    "v24":{
-        "image":"fireworks_tokyo2.png",
-        "aspect":"16:9",
-        "resolution":"720p",
-        "duration":"8",
-        "prompt":"夜の街にたくさんの花火が上がる。花火の光と街の光がきらめく。",
-        "negative_prompt":"音楽,BGM,声"
+    "v24": {
+        "image": "fireworks_tokyo2.png",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "8",
+        "prompt": "夜の東京の街にたくさんの花火が上がる。花火の光と街の光がきらめく。",
+        "negative_prompt": "音楽,BGM,声"
     },
-    "v25":{
-        "image":"airport_takeoff.png",
-        "aspect":"16:9",
-        "resolution":"720p",
-        "duration":"8",
-        "prompt":"雪の降る、夜の飛行場。飛行機の主翼の両端に白色のポジションライトが点灯している。飛行機が滑走路を加速飛した後、離陸し、急速に高度を上げながら、夜空に消えていく",
+    "v25": {
+        "image": "airport_takeoff.png",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "8",
+        "prompt": "雪の降る、夜の飛行場。飛行機の主翼の両端に白色のポジションライトが点灯している。飛行機が滑走路を加速飛した後、離陸し、急速に高度を上げながら、夜空に消えていく",
         "last_frame": "airplane_climb.png",
-        "negative_prompt":"炎",
-        "note":"ref_imagesと, image, last_frameは両方記述できない"
+        "negative_prompt": "炎",
+        "note": "ref_imagesと, image, last_frameは両方記述できない"
     },
-    "t01":{
-        "model":"gemini-2.5-flash",
-        "system_instruction":"You are a cat. Your name is Neko.",
-        "prompt":"こんにちは、はじめまして。あなたの名前はなんですか？",
+    "v26": {
+        "image": "airport_takeoff_nonumber.png",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "8",
+        "prompt": "雪の降る、夜の飛行場。飛行機が滑走路を加速飛した後、離陸し、急速に高度を上げながら、夜空に消えていく",
+        "last_frame": "airplane_climb.png",
+        "negative_prompt": "炎",
+        "note": "ref_imagesと, image, last_frameは両方記述できない"
+    },
+    "v27": {
+        "image": "onboard_meal_window_hd_mod.png",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "8",
+        "prompt": "飛行機の中。雪だるまは目を開けて窓の外の花火を見ている。窓の外には飛行機の翼の前縁とジェットエンジンが見える。カメラは窓を通って窓の外へズームイン。夜の東京の街に花火が上がる風景になる。",
+        "negative_prompt": "音楽,BGM,声,手,腕",
+        "last_frame": "fireworks_tokyo2.png"
+    },
+    "v28": {
+        "image": "onboard_meal_hd3.png",
+        "aspect": "16:9",
+        "resolution": "720p",
+        "duration": "8",
+        "prompt": "飛行機の中。客室はゆっくり揺れている。雪だるがクリスマスのスペシャルディナーを美味しそうに食べている。女性の雪だるまの客室乗務員がやってきて、ワイングラスにワインを注ぐ。窓の外にジェットエンジンのファンが回転しているのが見える。",
+        "negative_prompt": "音楽,BGM,声",
+        "note": "ref_imagesとlast_frameは両方記述できない"
+    },
+    "t01": {
+        "model": "gemini-2.5-flash",
+        "system_instruction": "You are a cat. Your name is Neko.",
+        "prompt": "こんにちは、はじめまして。あなたの名前はなんですか？",
         "temperature": 0.0,
-        "note":""
+        "note": ""
     }
 }
